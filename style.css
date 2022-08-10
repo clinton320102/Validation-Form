@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 7rem auto;
+}
+
+.form_header {
+  padding: .5rem 0;
+}
+
+.form_message {
+  margin: .5rem 0;
+  text-align: center;
+}
+
+input, select {
+  padding: .5rem .3rem;
+  margin: .5rem 0;
+  outline: none;
+}
+
+input[type=submit] {
+  background-color: rgb(32, 27, 27);
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(47, 36, 36);
+}
+
+.success_msg {
+  color: rgb(7, 159, 7);
+}
+
+.error_msg {
+  color: red;
+}
+
+.input_error {
+  border: solid 2px red;
+}
